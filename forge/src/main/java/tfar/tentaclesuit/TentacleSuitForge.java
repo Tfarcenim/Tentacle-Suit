@@ -1,19 +1,19 @@
-package com.example.examplemod;
+package tfar.tentaclesuit;
 
 import net.minecraftforge.fml.common.Mod;
 
-@Mod(CommonClass.MOD_ID)
-public class ExampleMod {
+@Mod(TentacleSuit.MOD_ID)
+public class TentacleSuitForge {
     
-    public ExampleMod() {
-    
+    public TentacleSuitForge() {
+
+
         // This method is invoked by the Forge mod loader when it is ready
         // to load your mod. You can access Forge and Common code in this
         // project.
     
         // Use Forge to bootstrap the Common mod.
-        CommonClass.LOG.info("Hello Forge world!");
-        CommonClass.init();
+        TentacleSuit.init();
         
     }
 }
